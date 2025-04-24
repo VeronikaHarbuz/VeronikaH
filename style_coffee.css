@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+.header{
+/*	margin-top: 50px;*/
+	background: url('IMG/BG.png') no-repeat center top / cover;
+	padding-top: 640px;
+}
+
+.bgM{
+	background: rgba(205, 214, 219, 0.3);
+}
+
+.naw{
+	justify-self: center;
+	display: grid;
+	grid-template-columns: 25% 30% 30% 16%;
+	width: 1000px;
+	align-items: center;
+/*	padding-bottom: 10px;*/
+
+}
+
+.logo{
+	background: url('IMG/ico.png') no-repeat center top / cover;
+	width: 50px;
+    height: 60px;
+}
+
+img{
+	width: 30px;
+	height: 30px;
+}
+
+.adr, .num{
+	display: grid;
+	grid-template-columns: 15% 85%;
+	align-items: center;
+
+
+}
+
+.naw p{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.btn{ /*кнопка резервации*/
+	justify-self: end;
+	background: url('IMG/BTres.png') no-repeat center top / cover;
+	width: 140px;
+    height: 49px;
+    border: none;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+	justify-self: center;
+}
+
+
+.tabs-block-wrapper{
+	justify-items: center;
+}
+
+
+.content{
+	justify-self: center;
+	width: 600px;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+
+
+
+.loc{
+	justify-self: center;
+	display: grid;
+	grid-template-columns: 60% 40%;
+	grid-column-gap: 15px;
+}
+
+
+	.content {
+	    display: none;
+	}
+
+	.content.active {
+	    display: grid;
+	}
+
+.tab.active {
+	    background-color: black;
+	    color: #ffffff;
+	}
+
+
+
+
+
+.about{
+/*	justify-self: center;*/
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 50px;
+}
+
+
+.about p{
+	width: 500px;
+
+
+}
+
+.about img{
+	width: 700px;
+	height: 400px;
+
+}
+.leftH{
+	margin-left: 80px;
+}
+
+.left{
+	justify-self: end;
+}
+.right{
+	justify-self: start;
+}
+
+
+
+
+
+.footer{
+	margin-top: 50px;
+	justify-items: center;
+}
+.footer img{
+	margin-left: 30PX;
+}
